@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="null" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="d676a030-d84e-4cb9-b88c-718cd6543ce1">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="SQL">
+		<![CDATA[SELECT * FROM jurusan]]>
+	</queryString>
+	<field name="id_jurusan" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="jurusan" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="140" splitType="Stretch">
+			<staticText>
+				<reportElement x="171" y="0" width="222" height="20" uuid="0a93ef73-7d02-46b4-afb8-8f427dfbc832"/>
+				<textElement textAlignment="Center">
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[PEMERINTAH PROVINSI JAWA TIMUR]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="232" y="20" width="119" height="20" uuid="0a2a6a7d-f111-4240-86d1-d5008d73bba4"/>
+				<textElement textAlignment="Center">
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[DINAS PENDIDIKAN]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="125" y="40" width="316" height="20" uuid="792372cf-30ce-41b7-846f-f13f2b34c30d"/>
+				<textElement textAlignment="Center">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[SEKOLAH MENENGAH KEJURUAN NEGERI 2]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="244" y="60" width="86" height="20" uuid="3ae400d3-58cb-4e92-a139-f2ec1abe271c"/>
+				<textElement textAlignment="Center">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[SURABAYA]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="125" y="80" width="316" height="20" uuid="efbd0b3f-bb23-40d6-b388-7c273867a07e"/>
+				<textElement textAlignment="Center">
+					<font size="13"/>
+				</textElement>
+				<text><![CDATA[Jalan Tentara Genie Pelajar 26 Telepon 031-5343708]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="125" y="100" width="326" height="20" uuid="05b4ad51-4647-4804-890a-ad514e13b35e"/>
+				<textElement textAlignment="Center">
+					<font size="13"/>
+				</textElement>
+				<text><![CDATA[Fax 031-5475376 e-mail: smekda.surabaya@gmail.com]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="244" y="120" width="119" height="20" uuid="ccebf997-31fa-42b2-8afc-a3633d98b48a"/>
+				<textElement>
+					<font size="13"/>
+				</textElement>
+				<text><![CDATA[SURABAYA 60252]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="90" splitType="Stretch">
+			<staticText>
+				<reportElement x="212" y="48" width="128" height="32" uuid="cb56d24e-4b12-4ac5-aa82-73e92e0acdd7"/>
+				<textElement textAlignment="Center">
+					<font size="20" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Data Jurusan]]></text>
+			</staticText>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="78" splitType="Stretch">
+			<staticText>
+				<reportElement x="193" y="58" width="26" height="20" uuid="5496d6bb-d0e9-4ab5-95f1-7a32801461ba"/>
+				<box>
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center"/>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="219" y="58" width="55" height="20" uuid="98e863fb-4286-4d11-9e1c-d370839066df"/>
+				<box>
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center"/>
+				<text><![CDATA[id_jurusan]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="274" y="58" width="99" height="20" uuid="19923db1-f078-4edb-a4cf-c6e9cb518946"/>
+				<box>
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center"/>
+				<text><![CDATA[jurusan]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="125" splitType="Stretch">
+			<textField>
+				<reportElement x="193" y="0" width="26" height="20" uuid="10643766-5187-4901-9a0a-9650675b34a3"/>
+				<box>
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$V{COLUMN_COUNT}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="219" y="0" width="55" height="20" uuid="25f0290a-d416-4d9e-835c-9e69f30091d3"/>
+				<box>
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{id_jurusan}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="274" y="0" width="99" height="20" uuid="80707061-2bd6-45ea-9d10-91fc0f730c73"/>
+				<box>
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{jurusan}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>
